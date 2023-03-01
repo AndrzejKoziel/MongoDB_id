@@ -15,7 +15,7 @@ BsonDefaults.GuidRepresentationMode = GuidRepresentationMode.V3;
 
 var mongoUrl = new MongoUrl("mongodb://admin:admin@localhost:27017/?directConnection=true");
 var dbName = "TestDB";
-var colletionName = "TestCollection
+var colletionName = "TestCollection";
 
 var mongoClient = new MongoClient(mongoUrl);
 var mongoDB = mongoClient.GetDatabase(dbName);
